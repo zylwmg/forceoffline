@@ -28,7 +28,7 @@ public class LoginActivity extends BaseActivity {
                 String account = accountEdit.getText().toString();
                 String password = passwordEdit.getText().toString();
                 // 如果账号是admin且密码是123456，就认为登录成功
-                if (account.equals("cloudhome") && password.equals("123456")) {
+                if (account.equals("manyan") && password.equals("123456")) {
                     Intent intent = new Intent(LoginActivity.this, MainActivity.class);
                     startActivity(intent);
                     finish();
